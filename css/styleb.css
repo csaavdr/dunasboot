@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 33px;
+    margin: 0;
+    background-color: #cce0f7;
+}
+
+#botonera {
+    background: rgba(255, 211, 50, 0.411);
+    background: linear-gradient(0deg, rgba(255, 211, 50, 0.521) 0%, rgba(172, 172, 172, 0.445) 100%);
+}
+
+#botonera img[src="img/logo.svg"] {
+    width: 100px;
+}
+
+h2 {
+    color: #012a58;
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+/* inicio home */
+
+.casa {
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.casa img {
+    max-width: 100%;
+    border-radius: 5%;
+    box-shadow: 0 0 5px rgb(87, 86, 86);
+    cursor: pointer;
+}
+
+.casa h3 {
+    color: #012a58;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+
+/* fin home */
+
+
+/* inicio galeria */
+
+.galeria .imagenes .foto img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+
+/* fin galeria */
+
+@media (min-width:280px) and (max-width: 376px) {
+    #botonera img[src="img/logo.svg"] {
+        width: 100px;
+    }
+}
